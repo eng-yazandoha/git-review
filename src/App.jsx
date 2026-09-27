@@ -6,6 +6,7 @@ function App() {
       <button onClick={() => alert("Hello Git!")}>
         Click Me
       </button>
+      <p>New feature button added!</p>
     </div>
   );
 }
