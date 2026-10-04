@@ -1,3 +1,5 @@
+import ReloadPrompt from './components/ReloadPrompt'
+
 function App() {
   return (
     <div>
@@ -6,7 +8,10 @@ function App() {
       <button onClick={() => alert("Hello Git!")}>
         Click Me
       </button>
-      <p>New feature button added!</p>
+      <p>New feature button added!2222</p>
+      <h2>this is the update2</h2>
+
+      <ReloadPrompt />
     </div>
   );
 }
